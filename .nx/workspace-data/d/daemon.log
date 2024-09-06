@@ -24370,3 +24370,363 @@ Failed to process project graph. Run "nx reset" to fix this. Please report the i
 [NX Daemon Server] - 2024-09-06T11:34:43.562Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2024-09-06T11:34:45.657Z - [WATCHER]: Processing file changes in outputs
 [NX Daemon Server] - 2024-09-06T11:34:45.816Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-06T11:35:44.658Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-06T11:35:44.899Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-06T11:37:21.549Z - [WATCHER]: 13 file(s) created or restored, 3 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-09-06T11:37:21.551Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-09-06T11:37:21.551Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-09-06T11:37:21.551Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-09-06T11:37:21.551Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-06T11:37:21.552Z - Time taken for 'changed-projects' 0.2302499999932479ms
+[NX Daemon Server] - 2024-09-06T11:37:22.106Z - [WATCHER]: _tmp_31614_d97275fde9272e3c20a2dc91abda1936 was deleted
+[NX Daemon Server] - 2024-09-06T11:37:22.107Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-09-06T11:37:22.107Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-09-06T11:37:22.107Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-09-06T11:37:22.107Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-06T11:37:22.108Z - Time taken for 'changed-projects' 0.12020899998606183ms
+[NX Daemon Server] - 2024-09-06T11:37:22.261Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-09-06T11:37:22.262Z - [REQUEST]: packages/vanilla-ui/vanilla-ui/project.json,packages/vanilla-ui/vanilla-ui/vite.config.ts,packages/vanilla-ui/vanilla-ui/tsconfig.spec.json,packages/vanilla-ui/vanilla-ui/src/lib/vanilla-ui-vanilla-ui.spec.tsx,packages/vanilla-ui/vanilla-ui/jest.config.ts,packages/vanilla-ui/vanilla-ui/tsconfig.json,packages/vanilla-ui/vanilla-ui/README.md,packages/vanilla-ui/vanilla-ui/src/lib/vanilla-ui-vanilla-ui.tsx,packages/vanilla-ui/vanilla-ui/src/index.ts,packages/vanilla-ui/vanilla-ui/.babelrc,packages/vanilla-ui/vanilla-ui/package.json,packages/vanilla-ui/vanilla-ui/tsconfig.lib.json,packages/vanilla-ui/vanilla-ui/.eslintrc.json,nx.json,package.json,tsconfig.base.json
+[NX Daemon Server] - 2024-09-06T11:37:22.262Z - [REQUEST]: _tmp_31614_d97275fde9272e3c20a2dc91abda1936
+[NX Daemon Server] - 2024-09-06T11:37:22.283Z - Time taken for 'loadNxPlugins' 606.976250000007ms
+[NX Daemon Server] - 2024-09-06T11:37:22.314Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-09-06T11:37:22.314Z - [REQUEST]: packages/vanilla-ui/vanilla-ui/project.json,packages/vanilla-ui/vanilla-ui/vite.config.ts,packages/vanilla-ui/vanilla-ui/tsconfig.spec.json,packages/vanilla-ui/vanilla-ui/src/lib/vanilla-ui-vanilla-ui.spec.tsx,packages/vanilla-ui/vanilla-ui/jest.config.ts,packages/vanilla-ui/vanilla-ui/tsconfig.json,packages/vanilla-ui/vanilla-ui/README.md,packages/vanilla-ui/vanilla-ui/src/lib/vanilla-ui-vanilla-ui.tsx,packages/vanilla-ui/vanilla-ui/src/index.ts,packages/vanilla-ui/vanilla-ui/.babelrc,packages/vanilla-ui/vanilla-ui/package.json,packages/vanilla-ui/vanilla-ui/tsconfig.lib.json,packages/vanilla-ui/vanilla-ui/.eslintrc.json,nx.json,package.json,tsconfig.base.json
+[NX Daemon Server] - 2024-09-06T11:37:22.315Z - [REQUEST]: _tmp_31614_d97275fde9272e3c20a2dc91abda1936
+[NX Daemon Server] - 2024-09-06T11:37:22.342Z - Time taken for 'hash changed files from watcher' 6.7557920000108425ms
+[33mThe CJS build of Vite's Node API is deprecated. See https://vitejs.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
+failed to load config from /Users/grahamclapham/Documents/APPS/MONO/boilerplate/packages/vanilla-ui/vanilla-ui/vite.config.ts
+failed to load config from /Users/grahamclapham/Documents/APPS/MONO/boilerplate/packages/vanilla-ui/vanilla-ui/vite.config.ts
+[NX Daemon Server] - 2024-09-06T11:37:23.595Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-06T11:37:23.623Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-09-06T11:37:23.625Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-06T11:37:23.625Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-09-06T11:37:23.625Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-06T11:37:23.626Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-09-06T11:37:23.628Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-09-06T11:37:23.628Z - [REQUEST]: packages/vanilla-ui/vanilla-ui/project.json,packages/vanilla-ui/vanilla-ui/vite.config.ts,packages/vanilla-ui/vanilla-ui/tsconfig.spec.json,packages/vanilla-ui/vanilla-ui/src/lib/vanilla-ui-vanilla-ui.spec.tsx,packages/vanilla-ui/vanilla-ui/jest.config.ts,packages/vanilla-ui/vanilla-ui/tsconfig.json,packages/vanilla-ui/vanilla-ui/README.md,packages/vanilla-ui/vanilla-ui/src/lib/vanilla-ui-vanilla-ui.tsx,packages/vanilla-ui/vanilla-ui/src/index.ts,packages/vanilla-ui/vanilla-ui/.babelrc,packages/vanilla-ui/vanilla-ui/package.json,packages/vanilla-ui/vanilla-ui/tsconfig.lib.json,packages/vanilla-ui/vanilla-ui/.eslintrc.json,nx.json,package.json,tsconfig.base.json
+[NX Daemon Server] - 2024-09-06T11:37:23.628Z - [REQUEST]: _tmp_31614_d97275fde9272e3c20a2dc91abda1936
+[NX Daemon Server] - 2024-09-06T11:37:23.639Z - Time taken for 'hash changed files from watcher' 0.6236250000074506ms
+failed to load config from /Users/grahamclapham/Documents/APPS/MONO/boilerplate/packages/vanilla-ui/vanilla-ui/vite.config.ts
+[NX Daemon Server] - 2024-09-06T11:37:24.353Z - Time taken for 'build-project-configs' 720.404749999987ms
+[NX Daemon Server] - 2024-09-06T11:37:24.359Z - Time taken for 'build-project-configs' 725.2912500000093ms
+[NX Daemon Server] - 2024-09-06T11:37:24.361Z - Time taken for '@nx/vite/plugin:createDependencies' 3.677125000016531ms
+[NX Daemon Server] - 2024-09-06T11:37:24.365Z - Time taken for '@nx/vite/plugin:createDependencies' 7.041875000024447ms
+[NX Daemon Server] - 2024-09-06T11:37:24.614Z - Time taken for 'total execution time for createProjectGraph()' 254.27683399998932ms
+[NX Daemon Server] - 2024-09-06T11:37:24.665Z - Time taken for 'total execution time for createProjectGraph()' 308.00929199997336ms
+[NX Daemon Server] - 2024-09-06T11:37:24.673Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+  An error occurred while processing files for the @nx/vite/plugin plugin.
+    - packages/vanilla-ui/vanilla-ui/vite.config.ts: Cannot find module '@vitejs/plugin-react'
+  Require stack:
+  - /Users/grahamclapham/Documents/APPS/MONO/boilerplate/packages/vanilla-ui/vanilla-ui/vite.config.ts
+  - /Users/grahamclapham/Documents/APPS/MONO/boilerplate/node_modules/.pnpm/vite@5.4.3_@types+node@18.16.9_less@4.1.3_sass@1.78.0_stylus@0.59.0_terser@5.31.6/node_modules/vite/dist/node/chunks/dep-BaOMuo4I.js
+      Error: Cannot find module '@vitejs/plugin-react'
+      Require stack:
+      - /Users/grahamclapham/Documents/APPS/MONO/boilerplate/packages/vanilla-ui/vanilla-ui/vite.config.ts
+      - /Users/grahamclapham/Documents/APPS/MONO/boilerplate/node_modules/.pnpm/vite@5.4.3_@types+node@18.16.9_less@4.1.3_sass@1.78.0_stylus@0.59.0_terser@5.31.6/node_modules/vite/dist/node/chunks/dep-BaOMuo4I.js
+          at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+          at Module._load (node:internal/modules/cjs/loader:985:27)
+          at Module.require (node:internal/modules/cjs/loader:1235:19)
+          at require (node:internal/modules/helpers:176:18)
+          at Object.<anonymous> (/Users/grahamclapham/Documents/APPS/MONO/boilerplate/packages/vanilla-ui/vanilla-ui/vite.config.ts:37:35)
+          at Module._compile (node:internal/modules/cjs/loader:1376:14)
+          at _require.extensions.<computed> [as .js] (file:///Users/grahamclapham/Documents/APPS/MONO/boilerplate/node_modules/.pnpm/vite@5.4.3_@types+node@18.16.9_less@4.1.3_sass@1.78.0_stylus@0.59.0_terser@5.31.6/node_modules/vite/dist/node/chunks/dep-BaOMuo4I.js:66625:16)
+          at Module.load (node:internal/modules/cjs/loader:1207:32)
+          at Module._load (node:internal/modules/cjs/loader:1023:12)
+          at Module.require (node:internal/modules/cjs/loader:1235:19)
+[NX Daemon Server] - 2024-09-06T11:37:24.675Z - Time taken for 'total execution time for createProjectGraph()' 315.2989589999779ms
+[NX Daemon Server] - 2024-09-06T11:37:24.691Z - Done responding to the client null
+[NX Daemon Server] - 2024-09-06T11:37:24.691Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1047. Response time: 18.
+[NX Daemon Server] - 2024-09-06T11:37:24.703Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-09-06T11:37:24.704Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+  An error occurred while processing files for the @nx/vite/plugin plugin.
+    - packages/vanilla-ui/vanilla-ui/vite.config.ts: Cannot find module '@vitejs/plugin-react'
+  Require stack:
+  - /Users/grahamclapham/Documents/APPS/MONO/boilerplate/packages/vanilla-ui/vanilla-ui/vite.config.ts
+  - /Users/grahamclapham/Documents/APPS/MONO/boilerplate/node_modules/.pnpm/vite@5.4.3_@types+node@18.16.9_less@4.1.3_sass@1.78.0_stylus@0.59.0_terser@5.31.6/node_modules/vite/dist/node/chunks/dep-BaOMuo4I.js
+      Error: Cannot find module '@vitejs/plugin-react'
+      Require stack:
+      - /Users/grahamclapham/Documents/APPS/MONO/boilerplate/packages/vanilla-ui/vanilla-ui/vite.config.ts
+      - /Users/grahamclapham/Documents/APPS/MONO/boilerplate/node_modules/.pnpm/vite@5.4.3_@types+node@18.16.9_less@4.1.3_sass@1.78.0_stylus@0.59.0_terser@5.31.6/node_modules/vite/dist/node/chunks/dep-BaOMuo4I.js
+          at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+          at Module._load (node:internal/modules/cjs/loader:985:27)
+          at Module.require (node:internal/modules/cjs/loader:1235:19)
+          at require (node:internal/modules/helpers:176:18)
+          at Object.<anonymous> (/Users/grahamclapham/Documents/APPS/MONO/boilerplate/packages/vanilla-ui/vanilla-ui/vite.config.ts:37:35)
+          at Module._compile (node:internal/modules/cjs/loader:1376:14)
+          at _require.extensions.<computed> [as .js] (file:///Users/grahamclapham/Documents/APPS/MONO/boilerplate/node_modules/.pnpm/vite@5.4.3_@types+node@18.16.9_less@4.1.3_sass@1.78.0_stylus@0.59.0_terser@5.31.6/node_modules/vite/dist/node/chunks/dep-BaOMuo4I.js:66625:16)
+          at Module.load (node:internal/modules/cjs/loader:1207:32)
+          at Module._load (node:internal/modules/cjs/loader:1023:12)
+          at Module.require (node:internal/modules/cjs/loader:1235:19)
+[NX Daemon Server] - 2024-09-06T11:37:24.708Z - Done responding to the client null
+[NX Daemon Server] - 2024-09-06T11:37:24.708Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 4.
+[NX Daemon Server] - 2024-09-06T11:37:24.711Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-09-06T11:37:25.717Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-06T11:37:25.719Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-09-06T11:37:25.720Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-06T11:37:25.720Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-09-06T11:37:25.720Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-06T11:37:25.721Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-09-06T11:37:25.721Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+  An error occurred while processing files for the @nx/vite/plugin plugin.
+    - packages/vanilla-ui/vanilla-ui/vite.config.ts: Cannot find module '@vitejs/plugin-react'
+  Require stack:
+  - /Users/grahamclapham/Documents/APPS/MONO/boilerplate/packages/vanilla-ui/vanilla-ui/vite.config.ts
+  - /Users/grahamclapham/Documents/APPS/MONO/boilerplate/node_modules/.pnpm/vite@5.4.3_@types+node@18.16.9_less@4.1.3_sass@1.78.0_stylus@0.59.0_terser@5.31.6/node_modules/vite/dist/node/chunks/dep-BaOMuo4I.js
+      Error: Cannot find module '@vitejs/plugin-react'
+      Require stack:
+      - /Users/grahamclapham/Documents/APPS/MONO/boilerplate/packages/vanilla-ui/vanilla-ui/vite.config.ts
+      - /Users/grahamclapham/Documents/APPS/MONO/boilerplate/node_modules/.pnpm/vite@5.4.3_@types+node@18.16.9_less@4.1.3_sass@1.78.0_stylus@0.59.0_terser@5.31.6/node_modules/vite/dist/node/chunks/dep-BaOMuo4I.js
+          at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+          at Module._load (node:internal/modules/cjs/loader:985:27)
+          at Module.require (node:internal/modules/cjs/loader:1235:19)
+          at require (node:internal/modules/helpers:176:18)
+          at Object.<anonymous> (/Users/grahamclapham/Documents/APPS/MONO/boilerplate/packages/vanilla-ui/vanilla-ui/vite.config.ts:37:35)
+          at Module._compile (node:internal/modules/cjs/loader:1376:14)
+          at _require.extensions.<computed> [as .js] (file:///Users/grahamclapham/Documents/APPS/MONO/boilerplate/node_modules/.pnpm/vite@5.4.3_@types+node@18.16.9_less@4.1.3_sass@1.78.0_stylus@0.59.0_terser@5.31.6/node_modules/vite/dist/node/chunks/dep-BaOMuo4I.js:66625:16)
+          at Module.load (node:internal/modules/cjs/loader:1207:32)
+          at Module._load (node:internal/modules/cjs/loader:1023:12)
+          at Module.require (node:internal/modules/cjs/loader:1235:19)
+[NX Daemon Server] - 2024-09-06T11:37:25.724Z - Done responding to the client null
+[NX Daemon Server] - 2024-09-06T11:37:25.724Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX Daemon Server] - 2024-09-06T11:37:25.729Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-09-06T11:37:25.729Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+  An error occurred while processing files for the @nx/vite/plugin plugin.
+    - packages/vanilla-ui/vanilla-ui/vite.config.ts: Cannot find module '@vitejs/plugin-react'
+  Require stack:
+  - /Users/grahamclapham/Documents/APPS/MONO/boilerplate/packages/vanilla-ui/vanilla-ui/vite.config.ts
+  - /Users/grahamclapham/Documents/APPS/MONO/boilerplate/node_modules/.pnpm/vite@5.4.3_@types+node@18.16.9_less@4.1.3_sass@1.78.0_stylus@0.59.0_terser@5.31.6/node_modules/vite/dist/node/chunks/dep-BaOMuo4I.js
+      Error: Cannot find module '@vitejs/plugin-react'
+      Require stack:
+      - /Users/grahamclapham/Documents/APPS/MONO/boilerplate/packages/vanilla-ui/vanilla-ui/vite.config.ts
+      - /Users/grahamclapham/Documents/APPS/MONO/boilerplate/node_modules/.pnpm/vite@5.4.3_@types+node@18.16.9_less@4.1.3_sass@1.78.0_stylus@0.59.0_terser@5.31.6/node_modules/vite/dist/node/chunks/dep-BaOMuo4I.js
+          at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+          at Module._load (node:internal/modules/cjs/loader:985:27)
+          at Module.require (node:internal/modules/cjs/loader:1235:19)
+          at require (node:internal/modules/helpers:176:18)
+          at Object.<anonymous> (/Users/grahamclapham/Documents/APPS/MONO/boilerplate/packages/vanilla-ui/vanilla-ui/vite.config.ts:37:35)
+          at Module._compile (node:internal/modules/cjs/loader:1376:14)
+          at _require.extensions.<computed> [as .js] (file:///Users/grahamclapham/Documents/APPS/MONO/boilerplate/node_modules/.pnpm/vite@5.4.3_@types+node@18.16.9_less@4.1.3_sass@1.78.0_stylus@0.59.0_terser@5.31.6/node_modules/vite/dist/node/chunks/dep-BaOMuo4I.js:66625:16)
+          at Module.load (node:internal/modules/cjs/loader:1207:32)
+          at Module._load (node:internal/modules/cjs/loader:1023:12)
+          at Module.require (node:internal/modules/cjs/loader:1235:19)
+[NX Daemon Server] - 2024-09-06T11:37:25.732Z - Done responding to the client null
+[NX Daemon Server] - 2024-09-06T11:37:25.733Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 4.
+[NX Daemon Server] - 2024-09-06T11:37:25.741Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-09-06T11:37:29.746Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-06T11:37:29.749Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-09-06T11:37:29.750Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-06T11:37:29.750Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-09-06T11:37:29.750Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-06T11:37:29.751Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-09-06T11:37:29.751Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+  An error occurred while processing files for the @nx/vite/plugin plugin.
+    - packages/vanilla-ui/vanilla-ui/vite.config.ts: Cannot find module '@vitejs/plugin-react'
+  Require stack:
+  - /Users/grahamclapham/Documents/APPS/MONO/boilerplate/packages/vanilla-ui/vanilla-ui/vite.config.ts
+  - /Users/grahamclapham/Documents/APPS/MONO/boilerplate/node_modules/.pnpm/vite@5.4.3_@types+node@18.16.9_less@4.1.3_sass@1.78.0_stylus@0.59.0_terser@5.31.6/node_modules/vite/dist/node/chunks/dep-BaOMuo4I.js
+      Error: Cannot find module '@vitejs/plugin-react'
+      Require stack:
+      - /Users/grahamclapham/Documents/APPS/MONO/boilerplate/packages/vanilla-ui/vanilla-ui/vite.config.ts
+      - /Users/grahamclapham/Documents/APPS/MONO/boilerplate/node_modules/.pnpm/vite@5.4.3_@types+node@18.16.9_less@4.1.3_sass@1.78.0_stylus@0.59.0_terser@5.31.6/node_modules/vite/dist/node/chunks/dep-BaOMuo4I.js
+          at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+          at Module._load (node:internal/modules/cjs/loader:985:27)
+          at Module.require (node:internal/modules/cjs/loader:1235:19)
+          at require (node:internal/modules/helpers:176:18)
+          at Object.<anonymous> (/Users/grahamclapham/Documents/APPS/MONO/boilerplate/packages/vanilla-ui/vanilla-ui/vite.config.ts:37:35)
+          at Module._compile (node:internal/modules/cjs/loader:1376:14)
+          at _require.extensions.<computed> [as .js] (file:///Users/grahamclapham/Documents/APPS/MONO/boilerplate/node_modules/.pnpm/vite@5.4.3_@types+node@18.16.9_less@4.1.3_sass@1.78.0_stylus@0.59.0_terser@5.31.6/node_modules/vite/dist/node/chunks/dep-BaOMuo4I.js:66625:16)
+          at Module.load (node:internal/modules/cjs/loader:1207:32)
+          at Module._load (node:internal/modules/cjs/loader:1023:12)
+          at Module.require (node:internal/modules/cjs/loader:1235:19)
+[NX Daemon Server] - 2024-09-06T11:37:29.757Z - Done responding to the client null
+[NX Daemon Server] - 2024-09-06T11:37:29.757Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 6.
+[NX Daemon Server] - 2024-09-06T11:37:29.762Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-09-06T11:37:29.762Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+  An error occurred while processing files for the @nx/vite/plugin plugin.
+    - packages/vanilla-ui/vanilla-ui/vite.config.ts: Cannot find module '@vitejs/plugin-react'
+  Require stack:
+  - /Users/grahamclapham/Documents/APPS/MONO/boilerplate/packages/vanilla-ui/vanilla-ui/vite.config.ts
+  - /Users/grahamclapham/Documents/APPS/MONO/boilerplate/node_modules/.pnpm/vite@5.4.3_@types+node@18.16.9_less@4.1.3_sass@1.78.0_stylus@0.59.0_terser@5.31.6/node_modules/vite/dist/node/chunks/dep-BaOMuo4I.js
+      Error: Cannot find module '@vitejs/plugin-react'
+      Require stack:
+      - /Users/grahamclapham/Documents/APPS/MONO/boilerplate/packages/vanilla-ui/vanilla-ui/vite.config.ts
+      - /Users/grahamclapham/Documents/APPS/MONO/boilerplate/node_modules/.pnpm/vite@5.4.3_@types+node@18.16.9_less@4.1.3_sass@1.78.0_stylus@0.59.0_terser@5.31.6/node_modules/vite/dist/node/chunks/dep-BaOMuo4I.js
+          at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+          at Module._load (node:internal/modules/cjs/loader:985:27)
+          at Module.require (node:internal/modules/cjs/loader:1235:19)
+          at require (node:internal/modules/helpers:176:18)
+          at Object.<anonymous> (/Users/grahamclapham/Documents/APPS/MONO/boilerplate/packages/vanilla-ui/vanilla-ui/vite.config.ts:37:35)
+          at Module._compile (node:internal/modules/cjs/loader:1376:14)
+          at _require.extensions.<computed> [as .js] (file:///Users/grahamclapham/Documents/APPS/MONO/boilerplate/node_modules/.pnpm/vite@5.4.3_@types+node@18.16.9_less@4.1.3_sass@1.78.0_stylus@0.59.0_terser@5.31.6/node_modules/vite/dist/node/chunks/dep-BaOMuo4I.js:66625:16)
+          at Module.load (node:internal/modules/cjs/loader:1207:32)
+          at Module._load (node:internal/modules/cjs/loader:1023:12)
+          at Module.require (node:internal/modules/cjs/loader:1235:19)
+[NX Daemon Server] - 2024-09-06T11:37:29.768Z - Done responding to the client null
+[NX Daemon Server] - 2024-09-06T11:37:29.768Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 6.
+[NX Daemon Server] - 2024-09-06T11:37:29.772Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-09-06T11:37:36.507Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-09-06T11:37:36.508Z - Established a connection. Number of open connections: 4
+[NX Daemon Server] - 2024-09-06T11:37:36.508Z - Closed a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-09-06T11:37:36.509Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2024-09-06T11:37:36.510Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2024-09-06T11:37:36.510Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-09-06T11:37:36.512Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-09-06T11:37:36.512Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-06T11:37:36.512Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-09-06T11:37:36.512Z - [WATCHER]: Stopping the watcher for /Users/grahamclapham/Documents/APPS/MONO/boilerplate (sources)
+[NX Daemon Server] - 2024-09-06T11:37:36.512Z - [WATCHER]: Stopping the watcher for /Users/grahamclapham/Documents/APPS/MONO/boilerplate (outputs)
+[NX Daemon Server] - 2024-09-06T11:37:36.513Z - Server stopped because: "Request to shutdown"
+[NX Daemon Server] - 2024-09-06T11:37:36.940Z - Started listening on: /var/folders/86/1d1260555dqbytp43pjk2qj00000gn/T/041c67d9acf34e081738/d.sock
+[NX Daemon Server] - 2024-09-06T11:37:36.944Z - [WATCHER]: Subscribed to changes within: /Users/grahamclapham/Documents/APPS/MONO/boilerplate (native)
+[NX Daemon Server] - 2024-09-06T11:37:36.946Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-06T11:37:36.946Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-09-06T11:37:36.947Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-06T11:37:36.948Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-09-06T11:37:37.653Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-09-06T11:37:37.653Z - [REQUEST]: 
+[NX Daemon Server] - 2024-09-06T11:37:37.653Z - [REQUEST]: 
+[NX Daemon Server] - 2024-09-06T11:37:37.663Z - Time taken for 'loadNxPlugins' 704.0887090000001ms
+[33mThe CJS build of Vite's Node API is deprecated. See https://vitejs.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
+[NX Daemon Server] - 2024-09-06T11:37:38.206Z - Time taken for 'build-project-configs' 539.9969580000001ms
+[NX Daemon Server] - 2024-09-06T11:37:38.208Z - Time taken for '@nx/vite/plugin:createDependencies' 4.126499999999851ms
+[NX Daemon Server] - 2024-09-06T11:37:38.334Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-09-06T11:37:38.334Z - [SYNC]: scheduling: []
+[NX Daemon Server] - 2024-09-06T11:37:38.335Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-09-06T11:37:38.335Z - Time taken for 'total for creating and serializing project graph' 1386.538833ms
+[NX Daemon Server] - 2024-09-06T11:37:38.339Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-09-06T11:37:38.339Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1386. Response time: 5.
+[NX Daemon Server] - 2024-09-06T11:37:38.345Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-09-06T11:37:38.345Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-09-06T11:37:38.346Z - Time taken for 'total for creating and serializing project graph' 0.10770900000011352ms
+[NX Daemon Server] - 2024-09-06T11:37:38.351Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-09-06T11:37:38.351Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 6.
+[NX Daemon Server] - 2024-09-06T11:37:38.356Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-09-06T11:37:38.776Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-06T11:37:38.783Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-09-06T11:37:38.783Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-06T11:37:38.783Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-09-06T11:37:38.783Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-06T11:37:38.783Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-09-06T11:37:38.784Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-09-06T11:37:38.785Z - Time taken for 'total for creating and serializing project graph' 0.14525000000003274ms
+[NX Daemon Server] - 2024-09-06T11:37:38.786Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-09-06T11:37:38.786Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 2.
+[NX Daemon Server] - 2024-09-06T11:37:38.788Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-09-06T11:37:38.789Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-09-06T11:37:38.790Z - Time taken for 'total for creating and serializing project graph' 0.1572080000000824ms
+[NX Daemon Server] - 2024-09-06T11:37:38.791Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-09-06T11:37:38.791Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 2.
+[NX Daemon Server] - 2024-09-06T11:37:38.793Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-09-06T11:37:39.182Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-06T11:37:39.185Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-06T11:37:39.185Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-09-06T11:37:39.185Z - [WATCHER]: Stopping the watcher for /Users/grahamclapham/Documents/APPS/MONO/boilerplate (sources)
+[NX Daemon Server] - 2024-09-06T11:37:39.185Z - [WATCHER]: Stopping the watcher for /Users/grahamclapham/Documents/APPS/MONO/boilerplate (outputs)
+[NX Daemon Server] - 2024-09-06T11:37:39.186Z - Server stopped because: "LOCK_FILES_CHANGED"
+[NX Daemon Server] - 2024-09-06T11:37:39.419Z - Started listening on: /var/folders/86/1d1260555dqbytp43pjk2qj00000gn/T/041c67d9acf34e081738/d.sock
+[NX Daemon Server] - 2024-09-06T11:37:39.420Z - [WATCHER]: Subscribed to changes within: /Users/grahamclapham/Documents/APPS/MONO/boilerplate (native)
+[NX Daemon Server] - 2024-09-06T11:37:39.428Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-06T11:37:39.428Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-09-06T11:37:39.429Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-06T11:37:39.429Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-09-06T11:37:39.483Z - [WATCHER]: .nx/workspace-data/d/server-process.json was created or restored
+[NX Daemon Server] - 2024-09-06T11:37:40.064Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-09-06T11:37:40.065Z - [REQUEST]: .nx/workspace-data/d/server-process.json
+[NX Daemon Server] - 2024-09-06T11:37:40.065Z - [REQUEST]: 
+[NX Daemon Server] - 2024-09-06T11:37:40.088Z - Time taken for 'loadNxPlugins' 475.566542ms
+[NX Daemon Server] - 2024-09-06T11:37:40.182Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-09-06T11:37:40.182Z - [REQUEST]: .nx/workspace-data/d/server-process.json
+[NX Daemon Server] - 2024-09-06T11:37:40.182Z - [REQUEST]: 
+[NX Daemon Server] - 2024-09-06T11:37:40.190Z - Time taken for 'loadNxPlugins' 593.802625ms
+[33mThe CJS build of Vite's Node API is deprecated. See https://vitejs.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
+[33mThe CJS build of Vite's Node API is deprecated. See https://vitejs.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
+[NX Daemon Server] - 2024-09-06T11:37:41.445Z - Time taken for 'build-project-configs' 1249.2678749999998ms
+[NX Daemon Server] - 2024-09-06T11:37:41.448Z - Time taken for 'build-project-configs' 1261.934625ms
+[NX Daemon Server] - 2024-09-06T11:37:41.450Z - Time taken for '@nx/vite/plugin:createDependencies' 3.122707999999875ms
+[NX Daemon Server] - 2024-09-06T11:37:41.454Z - Time taken for '@nx/vite/plugin:createDependencies' 7.123541999999816ms
+[NX Daemon Server] - 2024-09-06T11:37:41.474Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-09-06T11:37:41.475Z - [SYNC]: scheduling: []
+[NX Daemon Server] - 2024-09-06T11:37:41.475Z - Time taken for 'total execution time for createProjectGraph()' 18.815542000000278ms
+[NX Daemon Server] - 2024-09-06T11:37:41.489Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-09-06T11:37:41.489Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-09-06T11:37:41.489Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-09-06T11:37:41.489Z - [SYNC]: scheduling: []
+[NX Daemon Server] - 2024-09-06T11:37:41.489Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-09-06T11:37:41.490Z - Time taken for 'total for creating and serializing project graph' 2059.713666ms
+[NX Daemon Server] - 2024-09-06T11:37:41.493Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-09-06T11:37:41.493Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 2060. Response time: 4.
+[NX Daemon Server] - 2024-09-06T11:37:41.499Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-09-06T11:37:41.499Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-09-06T11:37:41.500Z - Time taken for 'total for creating and serializing project graph' 0.15695800000003146ms
+[NX Daemon Server] - 2024-09-06T11:37:41.501Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-09-06T11:37:41.502Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX Daemon Server] - 2024-09-06T11:37:41.505Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-09-06T11:38:09.807Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-09-06T11:38:09.807Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-09-06T11:38:09.807Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-09-06T11:38:09.811Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2024-09-06T11:38:09.811Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2024-09-06T11:38:09.811Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-09-06T11:38:09.812Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-09-06T11:38:09.813Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-06T11:38:09.813Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-09-06T11:38:09.813Z - [WATCHER]: Stopping the watcher for /Users/grahamclapham/Documents/APPS/MONO/boilerplate (sources)
+[NX Daemon Server] - 2024-09-06T11:38:09.813Z - [WATCHER]: Stopping the watcher for /Users/grahamclapham/Documents/APPS/MONO/boilerplate (outputs)
+[NX Daemon Server] - 2024-09-06T11:38:09.814Z - Server stopped because: "Request to shutdown"
+[NX Daemon Server] - 2024-09-06T11:38:12.261Z - Started listening on: /var/folders/86/1d1260555dqbytp43pjk2qj00000gn/T/041c67d9acf34e081738/d.sock
+[NX Daemon Server] - 2024-09-06T11:38:12.262Z - [WATCHER]: Subscribed to changes within: /Users/grahamclapham/Documents/APPS/MONO/boilerplate (native)
+[NX Daemon Server] - 2024-09-06T11:38:12.272Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-06T11:38:12.272Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-09-06T11:38:12.273Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-06T11:38:12.274Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2024-09-06T11:38:12.274Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2024-09-06T11:38:12.274Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-09-06T11:38:12.275Z - [WATCHER]: Stopping the watcher for /Users/grahamclapham/Documents/APPS/MONO/boilerplate (sources)
+[NX Daemon Server] - 2024-09-06T11:38:12.275Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-09-06T11:38:12.275Z - [WATCHER]: Stopping the watcher for /Users/grahamclapham/Documents/APPS/MONO/boilerplate (outputs)
+[NX Daemon Server] - 2024-09-06T11:38:14.425Z - Started listening on: /var/folders/86/1d1260555dqbytp43pjk2qj00000gn/T/041c67d9acf34e081738/d.sock
+[NX Daemon Server] - 2024-09-06T11:38:14.426Z - [WATCHER]: Subscribed to changes within: /Users/grahamclapham/Documents/APPS/MONO/boilerplate (native)
+[NX Daemon Server] - 2024-09-06T11:38:14.428Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-06T11:38:14.429Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-09-06T11:38:14.429Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-06T11:38:14.431Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-09-06T11:38:15.186Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-09-06T11:38:15.186Z - [REQUEST]: 
+[NX Daemon Server] - 2024-09-06T11:38:15.186Z - [REQUEST]: 
+[NX Daemon Server] - 2024-09-06T11:38:15.201Z - Time taken for 'loadNxPlugins' 754.135ms
+[33mThe CJS build of Vite's Node API is deprecated. See https://vitejs.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
+[NX Daemon Server] - 2024-09-06T11:38:15.797Z - Time taken for 'build-project-configs' 596.2131250000001ms
+[NX Daemon Server] - 2024-09-06T11:38:15.804Z - Time taken for '@nx/vite/plugin:createDependencies' 9.718417000000045ms
+[NX Daemon Server] - 2024-09-06T11:38:15.815Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-09-06T11:38:15.815Z - [SYNC]: scheduling: []
+[NX Daemon Server] - 2024-09-06T11:38:15.815Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-09-06T11:38:15.817Z - Time taken for 'total for creating and serializing project graph' 1385.2285ms
+[NX Daemon Server] - 2024-09-06T11:38:15.818Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-09-06T11:38:15.818Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1385. Response time: 3.
+[NX Daemon Server] - 2024-09-06T11:38:15.822Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-09-06T11:38:15.822Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-09-06T11:38:15.823Z - Time taken for 'total for creating and serializing project graph' 0.13933299999985138ms
+[NX Daemon Server] - 2024-09-06T11:38:15.827Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-09-06T11:38:15.827Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 5.
+[NX Daemon Server] - 2024-09-06T11:38:15.829Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-09-06T11:38:16.910Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-06T11:38:16.917Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-09-06T11:38:16.917Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-06T11:38:16.918Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-09-06T11:38:16.918Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-09-06T11:38:16.918Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-09-06T11:38:16.918Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-09-06T11:38:16.919Z - Time taken for 'total for creating and serializing project graph' 0.15725000000020373ms
+[NX Daemon Server] - 2024-09-06T11:38:16.920Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-09-06T11:38:16.920Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-09-06T11:38:16.922Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-09-06T11:38:16.922Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-09-06T11:38:16.924Z - Time taken for 'total for creating and serializing project graph' 0.22541700000010678ms
+[NX Daemon Server] - 2024-09-06T11:38:16.924Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-09-06T11:38:16.924Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-09-06T11:38:16.926Z - Established a connection. Number of open connections: 2

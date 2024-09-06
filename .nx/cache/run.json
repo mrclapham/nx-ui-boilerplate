@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx run vanilla-ui-vanilla-ui:test",
+    "startTime": "2024-09-06T11:38:24.922Z",
+    "endTime": "2024-09-06T11:38:28.137Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "vanilla-ui-vanilla-ui:test",
+      "target": "test",
+      "projectName": "vanilla-ui-vanilla-ui",
+      "hash": "14122733609945033868",
+      "startTime": "2024-09-06T11:38:24.928Z",
+      "endTime": "2024-09-06T11:38:28.136Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}
