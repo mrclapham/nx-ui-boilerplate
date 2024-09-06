@@ -1,0 +1,67 @@
+[2m> [22mjest
+
+[1m[2mDetermining test suites to run...[22m[22m[999D[K
+[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[37m vanilla-ui-lib [39m[27m[0m [2msrc/components/button/[22m[1mbutton-ui.spec.tsx[22m
+[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[37m vanilla-ui-lib [39m[27m[0m [2msrc/components/button/[22m[1mbutton-ui.spec.tsx[22m
+[K[1A[K[1A[0m[7m[1m[32m PASS [39m[22m[27m[0m [0m[7m[37m vanilla-ui-lib [39m[27m[0m [2msrc/components/button/[22m[1mbutton-ui.spec.tsx[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[37m vanilla-ui-lib [39m[27m[0m [2msrc/components/button/[22m[1mbutton-ui.spec.tsx[22m
+[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[37m vanilla-ui-lib [39m[27m[0m [2msrc/components/button/[22m[1mbutton-ui.spec.tsx[22m
+[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[37m vanilla-ui-lib [39m[27m[0m [2msrc/lib/[22m[1mvanilla-ui-lib.spec.tsx[22m
+[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[37m vanilla-ui-lib [39m[27m[0m [2msrc/lib/[22m[1mvanilla-ui-lib.spec.tsx[22m
+[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[37m vanilla-ui-lib [39m[27m[0m [2msrc/lib/[22m[1mvanilla-ui-lib.spec.tsx[22m
+[K[1A[K[1A[0m[7m[1m[32m PASS [39m[22m[27m[0m [0m[7m[37m vanilla-ui-lib [39m[27m[0m [2msrc/lib/[22m[1mvanilla-ui-lib.spec.tsx[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[37m vanilla-ui-lib [39m[27m[0m [2msrc/lib/[22m[1mvanilla-ui-lib.spec.tsx[22m
+[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[37m vanilla-ui-lib [39m[27m[0m [2msrc/components/pagination-button/[22m[1mpagination-button-component.spec.tsx[22m
+[K[1A[K[1A[0m[7m[1m[31m FAIL [39m[22m[27m[0m [0m[7m[37m vanilla-ui-lib [39m[27m[0m [2msrc/components/pagination-button/[22m[1mpagination-button-component.spec.tsx[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[37m vanilla-ui-lib [39m[27m[0m [2msrc/components/pagination-button/[22m[1mpagination-button-component.spec.tsx[22m
+[K[1A[K[1A  [1m● [22mTest suite failed to run
+
+    Cannot find module '@testing-library/jest-dom/extend-expect' from 'src/components/pagination-button/pagination-button-component.spec.tsx'
+
+    [0m [90m 1 |[39m [36mimport[39m [33mReact[39m [36mfrom[39m [32m'react'[39m[33m;[39m
+    [31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m [32m'@testing-library/jest-dom/extend-expect'[39m[33m;[39m
+     [90m   |[39m [31m[1m^[22m[39m
+     [90m 3 |[39m [36mimport[39m { render[33m,[39m screen } [36mfrom[39m [32m'@testing-library/react'[39m[33m;[39m
+     [90m 4 |[39m
+     [90m 5 |[39m [36mimport[39m { [33mPaginationButton[39m } [36mfrom[39m [32m'./pagination-button-component'[39m[33m;[39m[0m
+
+      [2mat Resolver._throwModNotFoundError ([22m../../node_modules/.pnpm/jest-resolve@29.7.0/node_modules/jest-resolve/build/resolver.js[2m:427:11)[22m
+      [2mat Object.<anonymous> ([22m[0m[36msrc/components/pagination-button/pagination-button-component.spec.tsx[39m[0m[2m:2:1)[22m
+
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[37m vanilla-ui-lib [39m[27m[0m [2msrc/components/pagination-button/[22m[1mpagination-button-component.spec.tsx[22m
+[K[1A[K[1A
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[37m vanilla-ui-lib [39m[27m[0m [2msrc/components/generic-component/[22m[1mgeneric-component.spec.tsx[22m
+[K[1A[K[1A[0m[7m[1m[31m FAIL [39m[22m[27m[0m [0m[7m[37m vanilla-ui-lib [39m[27m[0m [2msrc/components/generic-component/[22m[1mgeneric-component.spec.tsx[22m
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[37m vanilla-ui-lib [39m[27m[0m [2msrc/components/generic-component/[22m[1mgeneric-component.spec.tsx[22m
+[K[1A[K[1A  [1m● [22mTest suite failed to run
+
+    Cannot find module '@testing-library/jest-dom/extend-expect' from 'src/components/generic-component/generic-component.spec.tsx'
+
+    [0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m [32m'@testing-library/jest-dom/extend-expect'[39m[33m;[39m
+     [90m   |[39m [31m[1m^[22m[39m
+     [90m 2 |[39m [36mimport[39m { render[33m,[39m screen } [36mfrom[39m [32m'@testing-library/react'[39m[33m;[39m
+     [90m 3 |[39m
+     [90m 4 |[39m [36mimport[39m { [33mGenericComponent[39m } [36mfrom[39m [32m'./generic-component'[39m[33m;[39m[0m
+
+      [2mat Resolver._throwModNotFoundError ([22m../../node_modules/.pnpm/jest-resolve@29.7.0/node_modules/jest-resolve/build/resolver.js[2m:427:11)[22m
+      [2mat Object.<anonymous> ([22m[0m[36msrc/components/generic-component/generic-component.spec.tsx[39m[0m[2m:1:1)[22m
+
+
+[0m[7m[33m[1m RUNS [22m[39m[27m[0m [0m[7m[37m vanilla-ui-lib [39m[27m[0m [2msrc/components/generic-component/[22m[1mgeneric-component.spec.tsx[22m
+[K[1A[K[1A[999D[K[1mTest Suites: [22m[1m[31m2 failed[39m[22m, [1m[32m2 passed[39m[22m, 4 total
+[1mTests:       [22m[1m[32m2 passed[39m[22m, 2 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        1.319 s
+[2mRan all test suites[22m[2m.[22m

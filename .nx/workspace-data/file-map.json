@@ -33,6 +33,7 @@
     "@swc-node/register": "~1.9.1",
     "@swc/core": "~1.5.7",
     "@swc/helpers": "~0.5.11",
+    "@testing-library/jest-dom": "^6.5.0",
     "@testing-library/react": "15.0.6",
     "@types/jest": "^29.5.12",
     "@types/node": "18.16.9",
@@ -40,10 +41,12 @@
     "@types/react-dom": "18.3.0",
     "@types/react-is": "18.3.0",
     "@types/styled-components": "5.1.26",
+    "@types/testing-library__jest-dom": "^6.0.0",
     "@typescript-eslint/eslint-plugin": "^7.16.0",
     "@typescript-eslint/parser": "^7.16.0",
     "@vitejs/plugin-react": "^4.2.0",
     "@vitest/ui": "^1.3.1",
+    "add": "^2.0.6",
     "babel-jest": "^29.7.0",
     "babel-plugin-styled-components": "1.10.7",
     "eslint": "~8.57.0",
@@ -54,6 +57,7 @@
     "eslint-plugin-playwright": "^0.15.3",
     "eslint-plugin-react": "7.32.2",
     "eslint-plugin-react-hooks": "4.6.0",
+    "factory.ts": "^1.4.1",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
     "jsdom": "~22.1.0",
@@ -125,77 +129,70 @@
   ],
   "fileMap": {
     "projectFileMap": {
-      "vanilla-app": [
+      "vanilla-ui-vanilla-ui": [
         {
-          "file": "apps/vanilla-app/.eslintrc.json",
-          "hash": "8744029155129285224"
+          "file": "packages/vanilla-ui/vanilla-ui/.babelrc",
+          "hash": "5712476190361238632"
         },
         {
-          "file": "apps/vanilla-app/index.d.ts",
-          "hash": "5498222895072842432"
+          "file": "packages/vanilla-ui/vanilla-ui/.eslintrc.json",
+          "hash": "15946965712701950674"
         },
         {
-          "file": "apps/vanilla-app/jest.config.ts",
-          "hash": "17926922086084881226"
+          "file": "packages/vanilla-ui/vanilla-ui/README.md",
+          "hash": "2563737266950071275"
         },
         {
-          "file": "apps/vanilla-app/next-env.d.ts",
-          "hash": "5909181270615354023"
+          "file": "packages/vanilla-ui/vanilla-ui/jest.config.ts",
+          "hash": "5627469646396081930"
         },
         {
-          "file": "apps/vanilla-app/next.config.js",
-          "hash": "17252635002163063865",
+          "file": "packages/vanilla-ui/vanilla-ui/package.json",
+          "hash": "3523918455931990144"
+        },
+        {
+          "file": "packages/vanilla-ui/vanilla-ui/project.json",
+          "hash": "11290122051273198185"
+        },
+        {
+          "file": "packages/vanilla-ui/vanilla-ui/src/index.ts",
+          "hash": "5265814444383817815"
+        },
+        {
+          "file": "packages/vanilla-ui/vanilla-ui/src/lib/vanilla-ui-vanilla-ui.spec.tsx",
+          "hash": "184600076432400381",
           "deps": [
-            "npm:@nx/next"
-          ]
-        },
-        {
-          "file": "apps/vanilla-app/project.json",
-          "hash": "1266452071133366903"
-        },
-        {
-          "file": "apps/vanilla-app/public/.gitkeep",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/vanilla-app/public/favicon.ico",
-          "hash": "9303420814833116677"
-        },
-        {
-          "file": "apps/vanilla-app/specs/index.spec.tsx",
-          "hash": "1288872939091782814",
-          "deps": [
-            "npm:react",
             "npm:@testing-library/react"
           ]
         },
         {
-          "file": "apps/vanilla-app/src/app/api/hello/route.ts",
-          "hash": "495073956729887886"
+          "file": "packages/vanilla-ui/vanilla-ui/src/lib/vanilla-ui-vanilla-ui.tsx",
+          "hash": "15233310776679388839",
+          "deps": [
+            "npm:styled-components"
+          ]
         },
         {
-          "file": "apps/vanilla-app/src/app/global.css",
-          "hash": "2063387531564215811"
+          "file": "packages/vanilla-ui/vanilla-ui/tsconfig.json",
+          "hash": "10624731874538111994"
         },
         {
-          "file": "apps/vanilla-app/src/app/layout.tsx",
-          "hash": "11715480627551640956"
+          "file": "packages/vanilla-ui/vanilla-ui/tsconfig.lib.json",
+          "hash": "920925512994609163"
         },
         {
-          "file": "apps/vanilla-app/src/app/page.module.css",
-          "hash": "4786619528779355986"
+          "file": "packages/vanilla-ui/vanilla-ui/tsconfig.spec.json",
+          "hash": "622485232520597903"
         },
         {
-          "file": "apps/vanilla-app/src/app/page.tsx",
-          "hash": "13119291709695009080"
-        },
-        {
-          "file": "apps/vanilla-app/tsconfig.json",
-          "hash": "16391983105014594440"
-        },
-        {
-          "file": "apps/vanilla-app/tsconfig.spec.json",
-          "hash": "6922413205408300107"
+          "file": "packages/vanilla-ui/vanilla-ui/vite.config.ts",
+          "hash": "16844035287654311601",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:vite-plugin-dts",
+            "npm:@nx/vite"
+          ]
         }
       ],
       "vanilla-ui-lib": [
@@ -211,7 +208,8 @@
           "file": "packages/vanilla-ui-lib/.storybook/main.ts",
           "hash": "15916928450875507797",
           "deps": [
-            "npm:@storybook/react-vite"
+            "npm:@storybook/react-vite",
+            "npm:vite"
           ]
         },
         {
@@ -289,70 +287,77 @@
           ]
         }
       ],
-      "vanilla-ui-vanilla-ui": [
+      "vanilla-app": [
         {
-          "file": "packages/vanilla-ui/vanilla-ui/.babelrc",
-          "hash": "5712476190361238632"
+          "file": "apps/vanilla-app/.eslintrc.json",
+          "hash": "8744029155129285224"
         },
         {
-          "file": "packages/vanilla-ui/vanilla-ui/.eslintrc.json",
-          "hash": "15946965712701950674"
+          "file": "apps/vanilla-app/index.d.ts",
+          "hash": "5498222895072842432"
         },
         {
-          "file": "packages/vanilla-ui/vanilla-ui/README.md",
-          "hash": "2563737266950071275"
+          "file": "apps/vanilla-app/jest.config.ts",
+          "hash": "17926922086084881226"
         },
         {
-          "file": "packages/vanilla-ui/vanilla-ui/jest.config.ts",
-          "hash": "5627469646396081930"
+          "file": "apps/vanilla-app/next-env.d.ts",
+          "hash": "5909181270615354023"
         },
         {
-          "file": "packages/vanilla-ui/vanilla-ui/package.json",
-          "hash": "3523918455931990144"
-        },
-        {
-          "file": "packages/vanilla-ui/vanilla-ui/project.json",
-          "hash": "11290122051273198185"
-        },
-        {
-          "file": "packages/vanilla-ui/vanilla-ui/src/index.ts",
-          "hash": "5265814444383817815"
-        },
-        {
-          "file": "packages/vanilla-ui/vanilla-ui/src/lib/vanilla-ui-vanilla-ui.spec.tsx",
-          "hash": "184600076432400381",
+          "file": "apps/vanilla-app/next.config.js",
+          "hash": "17252635002163063865",
           "deps": [
+            "npm:@nx/next"
+          ]
+        },
+        {
+          "file": "apps/vanilla-app/project.json",
+          "hash": "1266452071133366903"
+        },
+        {
+          "file": "apps/vanilla-app/public/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/vanilla-app/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/vanilla-app/specs/index.spec.tsx",
+          "hash": "1288872939091782814",
+          "deps": [
+            "npm:react",
             "npm:@testing-library/react"
           ]
         },
         {
-          "file": "packages/vanilla-ui/vanilla-ui/src/lib/vanilla-ui-vanilla-ui.tsx",
-          "hash": "15233310776679388839",
-          "deps": [
-            "npm:styled-components"
-          ]
+          "file": "apps/vanilla-app/src/app/api/hello/route.ts",
+          "hash": "495073956729887886"
         },
         {
-          "file": "packages/vanilla-ui/vanilla-ui/tsconfig.json",
-          "hash": "10624731874538111994"
+          "file": "apps/vanilla-app/src/app/global.css",
+          "hash": "2063387531564215811"
         },
         {
-          "file": "packages/vanilla-ui/vanilla-ui/tsconfig.lib.json",
-          "hash": "920925512994609163"
+          "file": "apps/vanilla-app/src/app/layout.tsx",
+          "hash": "11715480627551640956"
         },
         {
-          "file": "packages/vanilla-ui/vanilla-ui/tsconfig.spec.json",
-          "hash": "622485232520597903"
+          "file": "apps/vanilla-app/src/app/page.module.css",
+          "hash": "4786619528779355986"
         },
         {
-          "file": "packages/vanilla-ui/vanilla-ui/vite.config.ts",
-          "hash": "16844035287654311601",
-          "deps": [
-            "npm:vite",
-            "npm:@vitejs/plugin-react",
-            "npm:vite-plugin-dts",
-            "npm:@nx/vite"
-          ]
+          "file": "apps/vanilla-app/src/app/page.tsx",
+          "hash": "13119291709695009080"
+        },
+        {
+          "file": "apps/vanilla-app/tsconfig.json",
+          "hash": "16391983105014594440"
+        },
+        {
+          "file": "apps/vanilla-app/tsconfig.spec.json",
+          "hash": "6922413205408300107"
         }
       ],
       "vanilla-app-e2e": [
@@ -425,11 +430,11 @@
       },
       {
         "file": "package.json",
-        "hash": "15779703095583741552"
+        "hash": "4661257312112803478"
       },
       {
         "file": "pnpm-lock.yaml",
-        "hash": "6155439271344680443"
+        "hash": "4528662506448020537"
       },
       {
         "file": "pnpm-workspace.yaml",

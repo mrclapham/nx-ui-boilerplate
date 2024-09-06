@@ -1,7 +1,8 @@
 import type { StorybookConfig } from '@storybook/react-vite';
+import { mergeConfig } from 'vite';
 
 const config: StorybookConfig = {
-  stories: ['../src/lib/**/*.@(mdx|stories.@(js|jsx|ts|tsx))'],
+  stories: ['../src/**/*.stories.@(js|jsx|mjs|ts|tsx)'],
   addons: ['@storybook/addon-essentials', '@storybook/addon-interactions'],
   framework: {
     name: '@storybook/react-vite',
@@ -11,6 +12,19 @@ const config: StorybookConfig = {
       },
     },
   },
+  async viteFinal(config) {
+    // Customize the Vite config here
+    return mergeConfig(config, {
+      server: {
+        fs: {
+          allow: [
+            '..',
+            '../../node_modules/@fontsource'
+          ]
+        },
+      },
+    });
+  }
 };
 
 export default config;

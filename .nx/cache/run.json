@@ -1,8 +1,8 @@
 {
   "run": {
     "command": "nx run vanilla-ui-lib:test",
-    "startTime": "2024-09-06T11:43:05.215Z",
-    "endTime": "2024-09-06T11:43:07.353Z",
+    "startTime": "2024-09-06T12:45:48.624Z",
+    "endTime": "2024-09-06T12:45:50.930Z",
     "inner": false
   },
   "tasks": [
@@ -10,12 +10,12 @@
       "taskId": "vanilla-ui-lib:test",
       "target": "test",
       "projectName": "vanilla-ui-lib",
-      "hash": "1576974045281368896",
-      "startTime": "2024-09-06T11:43:05.221Z",
-      "endTime": "2024-09-06T11:43:07.352Z",
+      "hash": "9870459318814706373",
+      "startTime": "2024-09-06T12:45:48.629Z",
+      "endTime": "2024-09-06T12:45:50.930Z",
       "params": "",
       "cacheStatus": "cache-miss",
-      "status": 0
+      "status": 1
     }
   ]
 }
