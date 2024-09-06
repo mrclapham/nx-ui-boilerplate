@@ -2534,6 +2534,15 @@
         "hash": "sha512-Ys+3g2TaW7gADOJzPt83SJtCDhMjndcDMFVQ/Tj9iA1BfJzFKD9mAUXT3OenpuPHbI6P/myECxRJrofUsDx/5g=="
       }
     },
+    "npm:@fontsource/source-sans-pro": {
+      "type": "npm",
+      "name": "npm:@fontsource/source-sans-pro",
+      "data": {
+        "version": "5.0.8",
+        "packageName": "@fontsource/source-sans-pro",
+        "hash": "sha512-5U2UvIYRkCMozZ388gCE73PEpa2MFgN/0t9O4a1FF7bGT/MIneQWSL1XpWZ8iMVYdh6ntxRf3iFA6slCIuFgkg=="
+      }
+    },
     "npm:@hapi/hoek": {
       "type": "npm",
       "name": "npm:@hapi/hoek",
@@ -17188,12 +17197,22 @@
       },
       {
         "source": "vanilla-ui-lib",
+        "target": "npm:@storybook/react",
+        "type": "static"
+      },
+      {
+        "source": "vanilla-ui-lib",
+        "target": "npm:@fontsource/source-sans-pro",
+        "type": "static"
+      },
+      {
+        "source": "vanilla-ui-lib",
         "target": "npm:@testing-library/react",
         "type": "static"
       },
       {
         "source": "vanilla-ui-lib",
-        "target": "npm:@storybook/react",
+        "target": "npm:react",
         "type": "static"
       },
       {
@@ -17204,6 +17223,16 @@
       {
         "source": "vanilla-ui-lib",
         "target": "npm:@storybook/jest",
+        "type": "static"
+      },
+      {
+        "source": "vanilla-ui-lib",
+        "target": "npm:factory.ts",
+        "type": "static"
+      },
+      {
+        "source": "vanilla-ui-lib",
+        "target": "npm:@testing-library/jest-dom",
         "type": "static"
       },
       {

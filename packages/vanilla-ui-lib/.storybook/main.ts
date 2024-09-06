@@ -1,5 +1,6 @@
 import type { StorybookConfig } from '@storybook/react-vite';
 import { mergeConfig } from 'vite';
+import path from 'path';
 
 const config: StorybookConfig = {
   stories: ['../src/**/*.stories.@(js|jsx|mjs|ts|tsx)'],
@@ -13,14 +14,18 @@ const config: StorybookConfig = {
     },
   },
   async viteFinal(config) {
-    // Customize the Vite config here
     return mergeConfig(config, {
+      resolve: {
+        alias: {
+          '@fontsource': path.resolve(__dirname, '../../../node_modules/@fontsource'),
+        },
+      },
+      optimizeDeps: {
+        include: ['@fontsource/source-sans-pro'],
+      },
       server: {
         fs: {
-          allow: [
-            '..',
-            '../../node_modules/@fontsource'
-          ]
+          allow: ['.', '..', '../..', '../../../node_modules/@fontsource'],
         },
       },
     });
@@ -28,7 +33,3 @@ const config: StorybookConfig = {
 };
 
 export default config;
-
-// To customize your Vite configuration you can use the viteFinal field.
-// Check https://storybook.js.org/docs/react/builders/vite#configuration
-// and https://nx.dev/recipes/storybook/custom-builder-configs

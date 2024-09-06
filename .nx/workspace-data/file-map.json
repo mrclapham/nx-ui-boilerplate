@@ -2,6 +2,7 @@
   "version": "6.0",
   "nxVersion": "19.6.5",
   "deps": {
+    "@fontsource/source-sans-pro": "^5.0.8",
     "next": "14.2.3",
     "react": "18.3.1",
     "react-dom": "18.3.1",
@@ -129,6 +130,110 @@
   ],
   "fileMap": {
     "projectFileMap": {
+      "vanilla-ui-vanilla-ui": [
+        {
+          "file": "packages/vanilla-ui/vanilla-ui/.DS_Store",
+          "hash": "3340305787115669362"
+        },
+        {
+          "file": "packages/vanilla-ui/vanilla-ui/.babelrc",
+          "hash": "5712476190361238632"
+        },
+        {
+          "file": "packages/vanilla-ui/vanilla-ui/.eslintrc.json",
+          "hash": "15946965712701950674"
+        },
+        {
+          "file": "packages/vanilla-ui/vanilla-ui/README.md",
+          "hash": "2563737266950071275"
+        },
+        {
+          "file": "packages/vanilla-ui/vanilla-ui/jest.config.ts",
+          "hash": "5627469646396081930"
+        },
+        {
+          "file": "packages/vanilla-ui/vanilla-ui/package.json",
+          "hash": "3523918455931990144"
+        },
+        {
+          "file": "packages/vanilla-ui/vanilla-ui/project.json",
+          "hash": "11290122051273198185"
+        },
+        {
+          "file": "packages/vanilla-ui/vanilla-ui/src/.DS_Store",
+          "hash": "16550281115467744702"
+        },
+        {
+          "file": "packages/vanilla-ui/vanilla-ui/src/index.ts",
+          "hash": "5265814444383817815"
+        },
+        {
+          "file": "packages/vanilla-ui/vanilla-ui/src/lib/vanilla-ui-vanilla-ui.spec.tsx",
+          "hash": "184600076432400381",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "packages/vanilla-ui/vanilla-ui/src/lib/vanilla-ui-vanilla-ui.tsx",
+          "hash": "15233310776679388839",
+          "deps": [
+            "npm:styled-components"
+          ]
+        },
+        {
+          "file": "packages/vanilla-ui/vanilla-ui/tsconfig.json",
+          "hash": "15602699845246986300"
+        },
+        {
+          "file": "packages/vanilla-ui/vanilla-ui/tsconfig.lib.json",
+          "hash": "920925512994609163"
+        },
+        {
+          "file": "packages/vanilla-ui/vanilla-ui/tsconfig.spec.json",
+          "hash": "622485232520597903"
+        },
+        {
+          "file": "packages/vanilla-ui/vanilla-ui/vite.config.ts",
+          "hash": "16844035287654311601",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:vite-plugin-dts",
+            "npm:@nx/vite"
+          ]
+        }
+      ],
+      "vanilla-app-e2e": [
+        {
+          "file": "apps/vanilla-app-e2e/.eslintrc.json",
+          "hash": "632147010597293032"
+        },
+        {
+          "file": "apps/vanilla-app-e2e/playwright.config.ts",
+          "hash": "4626633665761497444",
+          "deps": [
+            "npm:@playwright/test",
+            "npm:@nx/playwright",
+            "npm:@nx/devkit"
+          ]
+        },
+        {
+          "file": "apps/vanilla-app-e2e/project.json",
+          "hash": "16344353422725878168"
+        },
+        {
+          "file": "apps/vanilla-app-e2e/src/example.spec.ts",
+          "hash": "16019101014373124625",
+          "deps": [
+            "npm:@playwright/test"
+          ]
+        },
+        {
+          "file": "apps/vanilla-app-e2e/tsconfig.json",
+          "hash": "13413400511057489941"
+        }
+      ],
       "vanilla-app": [
         {
           "file": "apps/vanilla-app/.eslintrc.json",
@@ -204,6 +309,10 @@
       ],
       "vanilla-ui-lib": [
         {
+          "file": "packages/vanilla-ui-lib/.DS_Store",
+          "hash": "6494442644516942101"
+        },
+        {
           "file": "packages/vanilla-ui-lib/.babelrc",
           "hash": "2946678488919325452"
         },
@@ -213,7 +322,7 @@
         },
         {
           "file": "packages/vanilla-ui-lib/.storybook/main.ts",
-          "hash": "15916928450875507797",
+          "hash": "3708232151344114440",
           "deps": [
             "npm:@storybook/react-vite",
             "npm:vite"
@@ -221,7 +330,11 @@
         },
         {
           "file": "packages/vanilla-ui-lib/.storybook/preview.ts",
-          "hash": "3244421341483603138"
+          "hash": "15367323127045103302",
+          "deps": [
+            "npm:@storybook/react",
+            "npm:@fontsource/source-sans-pro"
+          ]
         },
         {
           "file": "packages/vanilla-ui-lib/README.md",
@@ -238,6 +351,125 @@
         {
           "file": "packages/vanilla-ui-lib/project.json",
           "hash": "17235444404158964708"
+        },
+        {
+          "file": "packages/vanilla-ui-lib/src/components/.DS_Store",
+          "hash": "13635192163254157564"
+        },
+        {
+          "file": "packages/vanilla-ui-lib/src/components/button/button-ui.module.css",
+          "hash": "125145030238681982"
+        },
+        {
+          "file": "packages/vanilla-ui-lib/src/components/button/button-ui.spec.tsx",
+          "hash": "698567788118030239",
+          "deps": [
+            "npm:@testing-library/react",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/vanilla-ui-lib/src/components/button/button-ui.stories.tsx",
+          "hash": "15678617997376881004",
+          "deps": [
+            "npm:@storybook/react",
+            "npm:@storybook/testing-library",
+            "npm:@storybook/jest"
+          ]
+        },
+        {
+          "file": "packages/vanilla-ui-lib/src/components/button/button-ui.tsx",
+          "hash": "9427091174013627018"
+        },
+        {
+          "file": "packages/vanilla-ui-lib/src/components/generic-component/generic-component.spec.tsx",
+          "hash": "10865744991191939370",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "packages/vanilla-ui-lib/src/components/generic-component/generic-component.stories.tsx",
+          "hash": "13715944162014572935",
+          "deps": [
+            "npm:@storybook/react"
+          ]
+        },
+        {
+          "file": "packages/vanilla-ui-lib/src/components/generic-component/generic-component.tsx",
+          "hash": "2379653749626167555",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/vanilla-ui-lib/src/components/generic-component/test-factory/generic-component-factory.tsx",
+          "hash": "18385898480436490282",
+          "deps": [
+            "npm:factory.ts"
+          ]
+        },
+        {
+          "file": "packages/vanilla-ui-lib/src/components/pagination-button/.DS_Store",
+          "hash": "2232402026638521314"
+        },
+        {
+          "file": "packages/vanilla-ui-lib/src/components/pagination-button/pagination-button-component.module.css",
+          "hash": "16026240177339557864"
+        },
+        {
+          "file": "packages/vanilla-ui-lib/src/components/pagination-button/pagination-button-component.spec.tsx",
+          "hash": "16294292352155703265",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/jest-dom",
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "packages/vanilla-ui-lib/src/components/pagination-button/pagination-button-component.stories.tsx",
+          "hash": "15523310584913060401",
+          "deps": [
+            "npm:@storybook/react"
+          ]
+        },
+        {
+          "file": "packages/vanilla-ui-lib/src/components/pagination-button/pagination-button-component.tsx",
+          "hash": "2166262663231155416",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/vanilla-ui-lib/src/components/pagination-button/test-factory/pagination-button-component-factory.tsx",
+          "hash": "9342048995434364549",
+          "deps": [
+            "npm:factory.ts"
+          ]
+        },
+        {
+          "file": "packages/vanilla-ui-lib/src/design-tokens/.DS_Store",
+          "hash": "17029473315154371587"
+        },
+        {
+          "file": "packages/vanilla-ui-lib/src/design-tokens/css/tokens.css",
+          "hash": "18209715126636887298"
+        },
+        {
+          "file": "packages/vanilla-ui-lib/src/design-tokens/js/tokens.js",
+          "hash": "14378065389436700042"
+        },
+        {
+          "file": "packages/vanilla-ui-lib/src/design-tokens/scss/_variables.scss",
+          "hash": "9340021172718849001"
+        },
+        {
+          "file": "packages/vanilla-ui-lib/src/design-tokens/stylex/tokens.stylex.js",
+          "hash": "15646650023692439279"
+        },
+        {
+          "file": "packages/vanilla-ui-lib/src/design-tokens/ts/tokens.ts",
+          "hash": "8396110188671198672"
         },
         {
           "file": "packages/vanilla-ui-lib/src/index.ts",
@@ -293,102 +525,6 @@
             "npm:@nx/vite"
           ]
         }
-      ],
-      "vanilla-ui-vanilla-ui": [
-        {
-          "file": "packages/vanilla-ui/vanilla-ui/.babelrc",
-          "hash": "5712476190361238632"
-        },
-        {
-          "file": "packages/vanilla-ui/vanilla-ui/.eslintrc.json",
-          "hash": "15946965712701950674"
-        },
-        {
-          "file": "packages/vanilla-ui/vanilla-ui/README.md",
-          "hash": "2563737266950071275"
-        },
-        {
-          "file": "packages/vanilla-ui/vanilla-ui/jest.config.ts",
-          "hash": "5627469646396081930"
-        },
-        {
-          "file": "packages/vanilla-ui/vanilla-ui/package.json",
-          "hash": "3523918455931990144"
-        },
-        {
-          "file": "packages/vanilla-ui/vanilla-ui/project.json",
-          "hash": "11290122051273198185"
-        },
-        {
-          "file": "packages/vanilla-ui/vanilla-ui/src/index.ts",
-          "hash": "5265814444383817815"
-        },
-        {
-          "file": "packages/vanilla-ui/vanilla-ui/src/lib/vanilla-ui-vanilla-ui.spec.tsx",
-          "hash": "184600076432400381",
-          "deps": [
-            "npm:@testing-library/react"
-          ]
-        },
-        {
-          "file": "packages/vanilla-ui/vanilla-ui/src/lib/vanilla-ui-vanilla-ui.tsx",
-          "hash": "15233310776679388839",
-          "deps": [
-            "npm:styled-components"
-          ]
-        },
-        {
-          "file": "packages/vanilla-ui/vanilla-ui/tsconfig.json",
-          "hash": "10624731874538111994"
-        },
-        {
-          "file": "packages/vanilla-ui/vanilla-ui/tsconfig.lib.json",
-          "hash": "920925512994609163"
-        },
-        {
-          "file": "packages/vanilla-ui/vanilla-ui/tsconfig.spec.json",
-          "hash": "622485232520597903"
-        },
-        {
-          "file": "packages/vanilla-ui/vanilla-ui/vite.config.ts",
-          "hash": "16844035287654311601",
-          "deps": [
-            "npm:vite",
-            "npm:@vitejs/plugin-react",
-            "npm:vite-plugin-dts",
-            "npm:@nx/vite"
-          ]
-        }
-      ],
-      "vanilla-app-e2e": [
-        {
-          "file": "apps/vanilla-app-e2e/.eslintrc.json",
-          "hash": "632147010597293032"
-        },
-        {
-          "file": "apps/vanilla-app-e2e/playwright.config.ts",
-          "hash": "4626633665761497444",
-          "deps": [
-            "npm:@playwright/test",
-            "npm:@nx/playwright",
-            "npm:@nx/devkit"
-          ]
-        },
-        {
-          "file": "apps/vanilla-app-e2e/project.json",
-          "hash": "16344353422725878168"
-        },
-        {
-          "file": "apps/vanilla-app-e2e/src/example.spec.ts",
-          "hash": "16019101014373124625",
-          "deps": [
-            "npm:@playwright/test"
-          ]
-        },
-        {
-          "file": "apps/vanilla-app-e2e/tsconfig.json",
-          "hash": "13413400511057489941"
-        }
       ]
     },
     "nonProjectFiles": [
@@ -418,7 +554,7 @@
       },
       {
         "file": "jest.config.ts",
-        "hash": "3494843969422251966"
+        "hash": "6319148009617266751"
       },
       {
         "file": "jest.preset.js",
@@ -430,15 +566,19 @@
       },
       {
         "file": "package.json",
-        "hash": "4661257312112803478"
+        "hash": "18398975192784974621"
       },
       {
         "file": "pnpm-lock.yaml",
-        "hash": "4528662506448020537"
+        "hash": "9339800925350031784"
       },
       {
         "file": "pnpm-workspace.yaml",
         "hash": "11805071067713496448"
+      },
+      {
+        "file": "setupTests.ts",
+        "hash": "4941352530169676329"
       },
       {
         "file": "tsconfig.base.json",

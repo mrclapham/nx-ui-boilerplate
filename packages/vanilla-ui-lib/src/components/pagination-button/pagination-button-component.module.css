@@ -17,6 +17,7 @@
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
+  font-family: var(--font-families-source-sans-pro);
 }
 
 .pagination-button--small {
