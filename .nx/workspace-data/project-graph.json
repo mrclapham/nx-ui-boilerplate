@@ -4662,9 +4662,9 @@
       "type": "npm",
       "name": "npm:@testing-library/react",
       "data": {
-        "version": "15.0.6",
+        "version": "16.0.1",
         "packageName": "@testing-library/react",
-        "hash": "sha512-UlbazRtEpQClFOiYp+1BapMT+xyqWMnE+hh9tn5DQ6gmlE7AIZWcGpzZukmDZuFk3By01oiqOf8lRedLS4k6xQ=="
+        "hash": "sha512-dSmwJVtJXmku+iocRhWOUFbrERC76TX2Mnf0ATODz8brzAZrMBbzLwQixlBSanZxR6LddK3eiwpSFZgDET1URg=="
       }
     },
     "npm:@testing-library/user-event": {
