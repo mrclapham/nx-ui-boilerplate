@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "vanilla-ui-lib": ["packages/vanilla-ui-lib/src/index.ts"],
       "vanilla-ui/vanilla-ui": ["packages/vanilla-ui/vanilla-ui/src/index.ts"]
     }
   },

@@ -1,0 +1,158 @@
+{
+  "10405578888161254024": {
+    "build-storybook": {
+      "command": "storybook build",
+      "options": {
+        "cwd": "packages/vanilla-ui-lib"
+      },
+      "cache": true,
+      "outputs": [
+        "{workspaceRoot}/{projectRoot}/storybook-static",
+        "{options.output-dir}",
+        "{options.outputDir}",
+        "{options.o}"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "storybook",
+            "@storybook/test-runner"
+          ]
+        }
+      ]
+    },
+    "storybook": {
+      "command": "storybook dev",
+      "options": {
+        "cwd": "packages/vanilla-ui-lib"
+      }
+    },
+    "test-storybook": {
+      "command": "test-storybook",
+      "options": {
+        "cwd": "packages/vanilla-ui-lib"
+      },
+      "inputs": [
+        {
+          "externalDependencies": [
+            "storybook",
+            "@storybook/test-runner"
+          ]
+        }
+      ]
+    },
+    "static-storybook": {
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "build-storybook",
+        "staticFilePath": "packages/vanilla-ui-lib/storybook-static"
+      }
+    }
+  },
+  "4154958692326358410": {
+    "build-storybook": {
+      "command": "storybook build",
+      "options": {
+        "cwd": "packages/vanilla-ui-lib"
+      },
+      "cache": true,
+      "outputs": [
+        "{workspaceRoot}/{projectRoot}/storybook-static",
+        "{options.output-dir}",
+        "{options.outputDir}",
+        "{options.o}"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "storybook",
+            "@storybook/test-runner"
+          ]
+        }
+      ]
+    },
+    "storybook": {
+      "command": "storybook dev",
+      "options": {
+        "cwd": "packages/vanilla-ui-lib"
+      }
+    },
+    "test-storybook": {
+      "command": "test-storybook",
+      "options": {
+        "cwd": "packages/vanilla-ui-lib"
+      },
+      "inputs": [
+        {
+          "externalDependencies": [
+            "storybook",
+            "@storybook/test-runner"
+          ]
+        }
+      ]
+    },
+    "static-storybook": {
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "build-storybook",
+        "staticFilePath": "packages/vanilla-ui-lib/storybook-static"
+      }
+    }
+  },
+  "16438239409596867578": {
+    "build-storybook": {
+      "command": "storybook build",
+      "options": {
+        "cwd": "packages/vanilla-ui-lib"
+      },
+      "cache": true,
+      "outputs": [
+        "{workspaceRoot}/{projectRoot}/storybook-static",
+        "{options.output-dir}",
+        "{options.outputDir}",
+        "{options.o}"
+      ],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "externalDependencies": [
+            "storybook",
+            "@storybook/test-runner"
+          ]
+        }
+      ]
+    },
+    "storybook": {
+      "command": "storybook dev",
+      "options": {
+        "cwd": "packages/vanilla-ui-lib"
+      }
+    },
+    "test-storybook": {
+      "command": "test-storybook",
+      "options": {
+        "cwd": "packages/vanilla-ui-lib"
+      },
+      "inputs": [
+        {
+          "externalDependencies": [
+            "storybook",
+            "@storybook/test-runner"
+          ]
+        }
+      ]
+    },
+    "static-storybook": {
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "build-storybook",
+        "staticFilePath": "packages/vanilla-ui-lib/storybook-static"
+      }
+    }
+  }
+}

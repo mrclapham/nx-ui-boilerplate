@@ -1,0 +1,9 @@
+{
+  "name": "vanilla-ui-lib",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/vanilla-ui-lib/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project vanilla-ui-lib --web",
+  "targets": {}
+}

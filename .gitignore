@@ -4,3 +4,6 @@ dist
 # Next.js
 .next
 out
+
+
+storybook-static
