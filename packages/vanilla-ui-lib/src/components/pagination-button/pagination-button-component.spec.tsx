@@ -31,4 +31,13 @@ describe('PaginationButton Component', () => {
     const headingElement = screen.getByText('4');
     expect(headingElement).toHaveAttribute('aria-label', '4');
   });
+
+  test("fires onClick event", () => {
+    const onClick = jest.fn();
+    render(<PaginationButton value={4} onClick={onClick} />);
+    const headingElement = screen.getByText('4');
+    headingElement.click();
+    expect(onClick).toHaveBeenCalledWith(4);
+  }
+  );
 });

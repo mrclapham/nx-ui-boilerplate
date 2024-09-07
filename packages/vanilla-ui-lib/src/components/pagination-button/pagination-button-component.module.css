@@ -2,51 +2,49 @@
 
 .pagination-button {
   --button-size: var(--font-size-4);
-  --button-padding: var(--sm);
+  --button-padding-v: var(--sm);
+  --button-padding-h: var(--sm);
   --button-margin: var(--sm);
-  --border-radius: var(--sm);
 
   font-size: calc(var(--button-size) * 1px);
-  padding: calc(var(--button-padding) * 1px);
+  padding: calc(var(--button-padding-v) * 1px) calc(var(--button-padding-h) * 1px);
   margin: calc(var(--button-margin) * 1px);
-  border-radius: calc(var(--border-radius) * 1px);
+  border-radius: 9999px;
+  min-width: calc(var(--button-size) * 1px);
+
   background-color: var(--primary-primary-100);
   border: none;
-  color: var(--neutral-black);
+  color: var(--neutral-white);
   text-align: center;
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
   font-family: var(--font-families-source-sans-pro);
-  color: var(--neutral-white);
   transition: background-color 0.3s;
-
 }
 
 .pagination-button--small {
   --button-size: var(--font-size-2);
-  --button-padding: var(--sm);
+  --button-padding-v: var(--sm) ;
+  --button-padding-h: var(--sm) * 2;
   --button-margin: var(--sm);
-  --border-radius: var(--sm);
 }
 
 .pagination-button--medium {
   --button-size: var(--font-size-4);
-  --button-padding: var(--md);
-  --button-margin: var(--md);
-  --border-radius: var(--md);
+  --button-padding-v: var(--md) * .65;
+  --button-padding-h: var(--md);
+  --button-margin: calc(var(--md) / 2);
 }
 
 .pagination-button--large {
   --button-size: var(--font-size-6);
-  --button-padding: var(--lg);
-  --button-margin: var(--lg);
-  --border-radius: var(--lg);
+  --button-padding-v: var(--lg) * .65;
+  --button-padding-h: calc(var(--lg));
+  --button-margin: calc(var(--lg) / 2);
 }
 
 .pagination-button--selected {
   background-color: var(--primary-primary-50);
   color: var(--neutral-black);
 }
-
-

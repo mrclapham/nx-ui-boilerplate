@@ -1,4 +1,4 @@
-import React, { type FC, useMemo } from 'react';
+import { type FC, useMemo, useState, useEffect } from 'react';
 import { paginationFactory } from './pagination-utils/pagination-utils';
 import { PaginationButton } from '../pagination-button/pagination-button-component';
 
@@ -13,7 +13,9 @@ export type PaginationComponentProps = {
   current: number;
   length: number;
   ariaLabel?: string;
+  onChange?: (value: number) => void;
 };
+
 
 export const PaginationComponent: FC<PaginationComponentProps> = ({
   size = Sizes.LARGE,
@@ -22,16 +24,30 @@ export const PaginationComponent: FC<PaginationComponentProps> = ({
   current = 0,
   length = 10,
   ariaLabel,
+  onChange,
 }) => {
+
+  const [currentSelection, setCurrentSelection] = useState(current);
+
+  useEffect(() => {
+    setCurrentSelection(current);
+  } , [current]);
+
+
   const pageNumbers = useMemo(() => {
-    return paginationFactory(min, max, current, length);
-  }, [min, max, current, length]);
+    onChange && onChange(currentSelection);
+    return paginationFactory(min, max, currentSelection, length);
+  }, [min, max, currentSelection, length, onChange]);
+
+  const onButtonClick = (value: number): void => {
+    setCurrentSelection(value);
+  }
 
   return (
     <div role="navigation" aria-label={ariaLabel} className={styles.pagination}>
       {pageNumbers.map(({value, selected}) => (
-        <div key={value} className={`p-2 ${selected ? 'font-bold' : ''}`}>
-          <PaginationButton value={value} size={size} selected={selected} />
+        <div key={value} className={`${selected ? 'font-bold' : ''}`}>
+          <PaginationButton value={value} size={size} selected={selected} onClick={onButtonClick}/>
         </div>
       ))}
     </div>
