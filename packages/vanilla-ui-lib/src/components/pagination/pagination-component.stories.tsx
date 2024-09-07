@@ -8,7 +8,7 @@ import { Sizes } from '../component-enums/sizes';
 
 const meta: Meta<typeof PaginationComponent> = {
   component: PaginationComponent,
-  title: 'Components/atoms/PaginationComponent',
+  title: 'Components/molecules/PaginationComponent',
   tags: ['autodocs'],
   argTypes: {
     size: {
