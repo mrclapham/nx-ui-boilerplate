@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-
+import '@testing-library/jest-dom';
 import { GenericComponent } from './generic-component';
 
 describe('genericComponent Component', () => {

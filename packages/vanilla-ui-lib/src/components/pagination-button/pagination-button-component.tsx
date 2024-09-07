@@ -1,30 +1,23 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { type FC } from 'react';
 import styles from './pagination-button-component.module.css';
-
-export const HeadingSizes = {
-  LARGE: 'large',
-  MEDIUM: 'medium',
-  SMALL: 'small',
-} as const;
-
-export type HeadingSizesType = (typeof HeadingSizes)[keyof typeof HeadingSizes];
+import { Sizes, SizesType } from '../component-enums/sizes';
 
 export type PaginationButtonProps = {
-  size?: HeadingSizesType;
+  size?: SizesType;
   value: number;
   ariaLabel?: string;
 };
 
 export const PaginationButton: FC<PaginationButtonProps> = ({
-  size = HeadingSizes.MEDIUM,
+  size = Sizes.MEDIUM,
   ariaLabel,
   value = 0,
 }) => {
   const sizeClasses = {
-    [HeadingSizes.LARGE]: 'pagination-button--large',
-    [HeadingSizes.MEDIUM]: 'pagination-button--medium',
-    [HeadingSizes.SMALL]: 'pagination-button--small',
+    [Sizes.LARGE]: 'pagination-button--large',
+    [Sizes.MEDIUM]: 'pagination-button--medium',
+    [Sizes.SMALL]: 'pagination-button--small',
   };
 
   return (

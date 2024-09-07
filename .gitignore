@@ -5,5 +5,9 @@ dist
 .next
 out
 
+# Nx
+.nx
 
 storybook-static
+
+.DS_Store

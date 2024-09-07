@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nx run vanilla-ui-lib:test --watch"
   },
   "keywords": [],
   "author": "",
@@ -35,7 +35,7 @@
     "@swc-node/register": "~1.9.1",
     "@swc/core": "~1.5.7",
     "@swc/helpers": "~0.5.11",
-    "@testing-library/jest-dom": "^6.5.0",
+    "@testing-library/jest-dom": "6.5.0",
     "@testing-library/react": "16.0.1",
     "@types/jest": "^29.5.12",
     "@types/node": "18.16.9",

@@ -1,7 +1,9 @@
 import { type Meta, type StoryObj } from '@storybook/react';
 
-import { PaginationButton, HeadingSizes } from './pagination-button-component';
+import { PaginationButton } from './pagination-button-component';
 import { PaginationButtonFactory } from './test-factory/pagination-button-component-factory';
+import { Sizes } from '../component-enums/sizes';
+
 
 const meta: Meta<typeof PaginationButton> = {
   component: PaginationButton,
@@ -10,7 +12,7 @@ const meta: Meta<typeof PaginationButton> = {
   argTypes: {
     size: {
       control: 'select',
-      options: Object.values(HeadingSizes),
+      options: Object.values(Sizes),
     },
     value: { control: 'number' },
     ariaLabel: { control: 'text' },
@@ -22,21 +24,21 @@ type Story = StoryObj<typeof PaginationButton>;
 
 export const Large: Story = {
   args: PaginationButtonFactory.build({
-    size: HeadingSizes.LARGE,
+    size: Sizes.LARGE,
     value: 1,
   }),
 };
 
 export const Medium: Story = {
   args: PaginationButtonFactory.build({
-    size: HeadingSizes.MEDIUM,
+    size: Sizes.MEDIUM,
     value: 2,
   }),
 };
 
 export const Small: Story = {
   args: PaginationButtonFactory.build({
-    size: HeadingSizes.SMALL,
+    size: Sizes.SMALL,
     value: 3,
   }),
 };
