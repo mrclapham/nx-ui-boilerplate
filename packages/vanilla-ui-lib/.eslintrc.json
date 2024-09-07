@@ -1,6 +1,21 @@
 {
   "extends": ["plugin:@nx/react", "../../.eslintrc.json"],
   "ignorePatterns": ["!**/*", "storybook-static"],
+    "settings": {
+      "import/resolver": {
+        "node": {
+          "extensions": [".js", ".jsx", ".ts", ".tsx", ".css"]
+        }
+      }
+    },
+    "rules": {
+      "import/no-unresolved": [
+        "error",
+        {
+          "ignore": ["\\.css$"]
+        }
+      ]
+    },
   "overrides": [
     {
       "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],

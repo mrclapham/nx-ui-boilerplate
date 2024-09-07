@@ -2,7 +2,7 @@ import { render, screen, act } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import { PaginationComponent } from './pagination-component';
 import { Sizes } from '../component-enums/sizes';
-import styles from './pagination-component.module.css';
+import styles from '../pagination-button/pagination-button-component.module.css';
 
 describe('PaginationComponent Component', () => {
 
@@ -42,8 +42,10 @@ describe('PaginationComponent Component', () => {
   test('renders with custom size', () => {
     render(<PaginationComponent size={Sizes.LARGE} min={1} max={100} current={1} length={10} />);
     const button = screen.getAllByRole('button');
+
     const firstButton = button[0];
     const lastButton = button[button.length - 1];
+
     expect(firstButton).toHaveClass(styles['pagination-button']);
     expect(firstButton).toHaveClass(styles['pagination-button--large']);
     expect(firstButton).toHaveClass(styles['pagination-button--selected']);
@@ -51,8 +53,6 @@ describe('PaginationComponent Component', () => {
     expect(lastButton).toHaveClass(styles['pagination-button']);
     expect(lastButton).toHaveClass(styles['pagination-button--large']);
     expect(lastButton).not.toHaveClass(styles['pagination-button--selected']);
-
-
   }
   );
   test('uses ariaLabel as aria-label when provided', () => {
@@ -60,5 +60,4 @@ describe('PaginationComponent Component', () => {
     const paginationElement = screen.getByRole('navigation', { name: 'pagination' });
     expect(paginationElement).toHaveAttribute('aria-label', 'pagination');
   });
-
 });
