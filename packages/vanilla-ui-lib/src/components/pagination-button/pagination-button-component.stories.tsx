@@ -14,6 +14,7 @@ const meta: Meta<typeof PaginationButton> = {
       control: 'select',
       options: Object.values(Sizes),
     },
+    selected: { control: 'boolean' },
     value: { control: 'number' },
     ariaLabel: { control: 'text' },
   },

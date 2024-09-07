@@ -6,12 +6,14 @@ import { Sizes, SizesType } from '../component-enums/sizes';
 export type PaginationButtonProps = {
   size?: SizesType;
   value: number;
+  selected?: boolean;
   ariaLabel?: string;
 };
 
 export const PaginationButton: FC<PaginationButtonProps> = ({
   size = Sizes.MEDIUM,
   ariaLabel,
+  selected = false,
   value = 0,
 }) => {
   const sizeClasses = {
@@ -21,8 +23,10 @@ export const PaginationButton: FC<PaginationButtonProps> = ({
   };
 
   return (
-    <div className={ `${styles['pagination-button']} ${styles[sizeClasses[size]]}`} aria-label={ariaLabel || value.toString()}>
+    <button
+      className={`${styles['pagination-button']} ${styles[sizeClasses[size]]} ${  selected ? styles['pagination-button--selected'] : ''}`}
+      aria-label={ariaLabel || value.toString()}>
       {value}
-    </div>
+    </button>
   );
 };

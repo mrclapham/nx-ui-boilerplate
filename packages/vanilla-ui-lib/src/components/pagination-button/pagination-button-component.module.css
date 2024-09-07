@@ -18,6 +18,9 @@
   display: inline-block;
   cursor: pointer;
   font-family: var(--font-families-source-sans-pro);
+  color: var(--neutral-white);
+  transition: background-color 0.3s;
+
 }
 
 .pagination-button--small {
@@ -40,3 +43,10 @@
   --button-margin: var(--lg);
   --border-radius: var(--lg);
 }
+
+.pagination-button--selected {
+  background-color: var(--primary-primary-50);
+  color: var(--neutral-black);
+}
+
+

@@ -4,6 +4,8 @@ import { PaginationButton } from '../pagination-button/pagination-button-compone
 
 import { Sizes, type SizesType } from '../component-enums/sizes';
 
+import styles from './pagination-component.module.css';
+
 export type PaginationComponentProps = {
   size?: SizesType;
   min: number;
@@ -26,10 +28,10 @@ export const PaginationComponent: FC<PaginationComponentProps> = ({
   }, [min, max, current, length]);
 
   return (
-    <div role="navigation" aria-label={ariaLabel}>
+    <div role="navigation" aria-label={ariaLabel} className={styles.pagination}>
       {pageNumbers.map(({value, selected}) => (
         <div key={value} className={`p-2 ${selected ? 'font-bold' : ''}`}>
-          <PaginationButton  value={value} size={size} />
+          <PaginationButton value={value} size={size} selected={selected} />
         </div>
       ))}
     </div>
