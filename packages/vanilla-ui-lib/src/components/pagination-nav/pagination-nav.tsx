@@ -114,7 +114,7 @@ export const PaginationNavComponent: React.FC<PaginationNavComponentProps> = ({
         <IconComponent icon={IconNames.ARROW_LEFT} ariaLabel="Previous" />
       </ButtonComponent>
       <PaginationComponent max={state.max} min={state.min} current={state.current} length={length} size={size} onChange={onChange} />
-      <ButtonComponent onClick={forward} ariaLabel='Go to next page' disabled={state.current === state.max}>
+      <ButtonComponent onClick={forward} ariaLabel='Go to next page' disabled={state.current === state.max} size={size}>
         <IconComponent icon={IconNames.ARROW_RIGHT} ariaLabel="Next" />
       </ButtonComponent>
     </div>
