@@ -1,9 +1,7 @@
-import { type FC, useMemo, useState, useEffect } from 'react';
+import { type FC, useMemo, useEffect, useRef } from 'react';
 import { paginationFactory } from './pagination-utils/pagination-utils';
 import { PaginationButton } from '../pagination-button/pagination-button-component';
-
 import { Sizes, type SizesType } from '../component-enums/sizes';
-
 import styles from './pagination-component.module.css';
 
 export type PaginationComponentProps = {
@@ -16,38 +14,38 @@ export type PaginationComponentProps = {
   onChange?: (value: number) => void;
 };
 
-
 export const PaginationComponent: FC<PaginationComponentProps> = ({
   size = Sizes.LARGE,
-  min = 0,
+  min = 1,
   max = 100,
-  current = 0,
+  current = 1,
   length = 10,
   ariaLabel,
   onChange,
 }) => {
-
-  const [currentSelection, setCurrentSelection] = useState(current);
+  const previousCurrentRef = useRef(current);
 
   useEffect(() => {
-    setCurrentSelection(current);
-  } , [current]);
-
+    if (current !== previousCurrentRef.current && onChange) {
+      onChange(current);
+      previousCurrentRef.current = current;
+    }
+  }, [current, onChange]);
 
   const pageNumbers = useMemo(() => {
-    onChange && onChange(currentSelection);
-    return paginationFactory(min, max, currentSelection, length);
-  }, [min, max, currentSelection, length, onChange]);
-
-  const onButtonClick = (value: number): void => {
-    setCurrentSelection(value);
-  }
+    return paginationFactory(min, max, current, length);
+  }, [min, max, current, length]);
 
   return (
     <div role="navigation" aria-label={ariaLabel} className={styles.pagination}>
       {pageNumbers.map(({value, selected}) => (
         <div key={value} className={`${selected ? 'font-bold' : ''}`}>
-          <PaginationButton value={value} size={size} selected={selected} onClick={onButtonClick}/>
+          <PaginationButton 
+            value={value} 
+            size={size} 
+            selected={selected} 
+            onClick={onChange}
+          />
         </div>
       ))}
     </div>

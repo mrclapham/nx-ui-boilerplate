@@ -32,6 +32,10 @@ export const Large: Story = {
 export const Medium: Story = {
   args: PaginationNavComponentFactory.build({
     size: Sizes.MEDIUM,
+    initialMin: 1,
+    initialMax: 10,
+    length: 10,
+    initialCurrent: 10,
     title: 'PaginationNavComponent – Medium',
   }),
 };

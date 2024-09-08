@@ -7,11 +7,12 @@ import { Sizes } from '../../component-enums/sizes';
 export const PaginationNavComponentFactory =
   Factory.Sync.makeFactory<PaginationNavComponentProps>({
     size: Sizes.LARGE,
-    initialMax: 100,
-    initialMin: 0,
+    initialMax: 20,
+    initialMin: 1,
     initialCurrent: 1,
     length: 10,
     title: 'PaginationNavComponent',
+    
   });
 
 
