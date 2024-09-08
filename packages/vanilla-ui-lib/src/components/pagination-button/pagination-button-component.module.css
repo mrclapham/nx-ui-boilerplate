@@ -23,6 +23,21 @@
   transition: background-color 0.3s;
 }
 
+.pagination-button:hover {
+  background-color: var(--primary-primary-50);
+} 
+
+.pagination-button:active {
+  box-shadow: inset -2px -2px 3px var(--neutral-white), inset 2px 2px 3px var(--primary-primary-100);
+}
+
+.pagination-button--disabled {
+  background-color: var(--primary-primary-20);
+  color: var(--neutral-white);
+  cursor: not-allowed;
+  mouse-events: none;
+}
+
 .pagination-button--small {
   --button-size: var(--font-size-2);
   --button-padding-v: var(--sm) ;

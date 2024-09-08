@@ -2,7 +2,6 @@
 import { type FC } from 'react';
 import styles from './pagination-button-component.module.css';
 import { Sizes, SizesType } from '../component-enums/sizes';
-import { on } from 'events';
 
 export type PaginationButtonProps = {
   size?: SizesType;
@@ -31,7 +30,9 @@ export const PaginationButton: FC<PaginationButtonProps> = ({
         onClick && onClick(value);
       }}
       className={`${styles['pagination-button']} ${styles[sizeClasses[size]]} ${  selected ? styles['pagination-button--selected'] : ''}`}
-      aria-label={ariaLabel || value.toString()}>
+      aria-label={ariaLabel || value.toString()}
+      {...(selected ? { 'aria-current': 'page' } : {})}
+    >
       {value}
     </button>
   );
