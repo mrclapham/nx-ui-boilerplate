@@ -1,3 +1,5 @@
+@import '../../design-tokens/css/tokens.css';
+
 .styled {
     border: 0;
     line-height: 2.5;
@@ -23,6 +25,18 @@
     box-shadow:
       inset -2px -2px 3px rgba(255, 255, 255, 0.6),
       inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+  }
+
+  .pagination-button--large {
+    font-size: .--font-size-6;
+  }
+
+  .pagination-button--medium {
+    font-size: --font-size-4;
+  }
+
+  .pagination-button--small {
+    font-size: --font-size-2;
   }
   
   

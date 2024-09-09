@@ -35,7 +35,7 @@
   background-color: var(--primary-primary-20);
   color: var(--neutral-white);
   cursor: not-allowed;
-  mouse-events: none;
+  pointer-events: none;
 }
 
 .pagination-button--small {
