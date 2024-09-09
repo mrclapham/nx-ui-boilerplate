@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nx run vanilla-ui-lib:test --watch"
+    "test": "nx run vanilla-ui-lib:test --watch",
+    "storybook": "nx run vanilla-ui-lib:storybook"
   },
   "keywords": [],
   "author": "",
