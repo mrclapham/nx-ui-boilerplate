@@ -11,3 +11,4 @@ out
 storybook-static
 
 .DS_Store
+packages/vanilla-ui-lib/src/components/.DS_Store
