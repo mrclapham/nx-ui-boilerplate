@@ -1,4 +1,4 @@
-import React, { useReducer } from 'react';
+import React, { useReducer, useEffect } from 'react';
 import { Sizes, SizesType } from '../component-enums/sizes';
 import { IconComponent } from '../icon-component/icon-component';
 import { IconNames } from '../icon-component/icon-component';
@@ -32,7 +32,8 @@ type Action =
   | { type: 'DECREMENT' }
   | { type: 'EXTEND_RANGE' }
   | { type: 'SHRINK_RANGE' }
-  | { type: 'SET_CURRENT'; payload: number };
+  | { type: 'SET_CURRENT'; payload: number }
+  | { type: 'UPDATE_FROM_PROPS'; payload: Partial<State> };
 
 const reducer = (state: State, action: Action): State => {
   switch (action.type) {
@@ -53,7 +54,7 @@ const reducer = (state: State, action: Action): State => {
         ...state,
         min: state.min + 1,
         current: state.current + 1,
-      } ;
+      };
     case 'SHRINK_RANGE':
       if (state.min > state.initialMin) {
         return {
@@ -63,6 +64,8 @@ const reducer = (state: State, action: Action): State => {
         };
       }
       return state;
+    case 'UPDATE_FROM_PROPS':
+      return { ...state, ...action.payload };
     default:
       return state;
   }
@@ -86,6 +89,20 @@ export const PaginationNavComponent: React.FC<PaginationNavComponentProps> = ({
     initialMax: initialMax,
     length: length,
   });
+
+  useEffect(() => {
+    dispatch({
+      type: 'UPDATE_FROM_PROPS',
+      payload: {
+        min: initialMin,
+        max: initialMax,
+        current: initialCurrent,
+        initialMin: initialMin,
+        initialMax: initialMax,
+        length: length,
+      },
+    });
+  }, [initialMin, initialMax, initialCurrent, length]);
 
   const forward = () => {
     if (state.current - state.min === state.length-1) {
